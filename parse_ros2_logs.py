@@ -32,7 +32,15 @@ class ParseRos2Logs():
     """
 
     # ログメッセージのパターン
-    __pattern = OneOrMore(Suppress('[') + Word(alphanums + '!"#$%&\'()*+,-./:;<=>?@\\^_`{|}~') + Suppress(']')) + Suppress(':') + Word(alphanums + ' !"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~')
+    __pattern = (
+        OneOrMore(
+            Suppress('[')
+            + Word(alphanums + '!"#$%&\'()*+,-./:;<=>?@\\^_`{|}~')
+            + Suppress(']')
+        )
+        + Suppress(':')
+        + Word(alphanums + ' !"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~')
+    )
 
     def __init__(self, input_files, output_file):
         self.__input_files = list()
