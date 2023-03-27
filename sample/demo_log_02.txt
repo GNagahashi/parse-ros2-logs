@@ -1,0 +1,13 @@
+[INFO] [launch]: All log files can be found below /home/ros2humble/.ros/log/2023-03-28-07-18-00-163646-ubuntu-vb-3289
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [talker-1]: process started with pid [3290]
+[INFO] [listener-2]: process started with pid [3292]
+[listener-2] [INFO] [1679955481.229159527] [listener]: I heard: "Hello World: 0"
+[talker-1] [INFO] [1679955481.240361218] [talker]: Publishing: "Hello World: 0"
+[listener-2] [INFO] [1679955481.677474879] [listener]: I heard: "Hello World: 1"
+[talker-1] [INFO] [1679955481.679782287] [talker]: Publishing: "Hello World: 1"
+[listener-2] [INFO] [1679955482.177038661] [listener]: I heard: "Hello World: 2"
+[talker-1] [INFO] [1679955482.179029629] [talker]: Publishing: "Hello World: 2"
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [talker-1]: process has finished cleanly [pid 3290]
+[INFO] [listener-2]: process has finished cleanly [pid 3292]
