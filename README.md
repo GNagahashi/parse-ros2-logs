@@ -18,3 +18,15 @@ pip install pyparsing==3.0.0
 ```sh
 git clone https://github.com/GNagahashi/parse-ros2-logs.git parse_ros2_logs
 ```
+
+## デモ
+
+クローンしてきたリポジトリの直下で以下のコマンドを実行する
+
+```sh
+python3 parse_ros2_logs.py
+```
+
+```sh
+cat output.csv
+```
